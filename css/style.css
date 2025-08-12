@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 .header {
-    background: #fff;
+    background: #0F1B2B;
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
@@ -29,7 +29,7 @@ body {
 }
 .btn {
     background: #000;
-    color: #fff;
+    color: #0F1B2B;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -125,4 +125,5 @@ body {
         display: block;
     }
 }
+
 
