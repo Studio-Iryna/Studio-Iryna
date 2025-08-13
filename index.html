@@ -1,123 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio-Iryna</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!-- Навигация -->
-    <header class="header">
-        <div class="container nav-container">
-            <div class="logo">Studio-Iryna</div>
-            <nav class="nav">
-                <a href="#works">Работы</a>
-                <a href="#services">Услуги</a>
-                <a href="#about">Обо мне</a>
-                <a href="#contact" class="btn">Контакты</a>
-            </nav>
-            <div class="menu-toggle" id="menu-toggle">☰</div>
-        </div>
-    </header>
+    <nav class="navbar">
+        <a href="#">ГЛАВНАЯ</a>
+        <a href="#">О НАС</a>
+        <a href="#">УСЛУГИ</a>
+        <a href="#">КОНТАКТЫ</a>
+    </nav>
 
-    <main>
-        <!-- Hero -->
-        <section class="hero" id="home">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>Я создаю бренды, которые запоминаются</h1>
-                    <p>Графический дизайнер с опытом в айдентике, упаковке, редактуре и цифровых интерфейсах.</p>
-                    <div class="hero-buttons">
-                        <a href="#works" class="btn">Мои работы</a>
-                        <a href="#contact" class="btn-outline">Связаться</a>
-                    </div>
-                </div>
-                <div class="hero-img">
-                    <img src="images/hero.jpg" alt="Дизайн">
-                </div>
-            </div>
-        </section>
+    <!-- Основной блок -->
+    <section class="hero">
+        <h1 class="title">Studio-Iryna</h1>
+        <p class="description">
+            Для цифрового творчества, где дизайн встречается с технологией.<br>
+            Погрузись в мир визуального искусства.
+        </p>
 
-        <!-- Работы -->
-        <section class="works" id="works">
-            <div class="container">
-                <h2>Избранные работы</h2>
-                <div class="grid">
-                    <div class="card">
-                        <img src="images/work1.jpg" alt="">
-                        <h3>Brand Identity — Bloom</h3>
-                        <p>Айдентика для цветочной студии.</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/work2.jpg" alt="">
-                        <h3>Packaging — Terra</h3>
-                        <p>Экологичная упаковка для косметики.</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/work3.jpg" alt="">
-                        <h3>Editorial Layout — Mono</h3>
-                        <p>Макет журнала с типографикой.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <h2 class="slogan">Создавай, Вдохновляй, Преображай</h2>
+        <a href="#" class="btn">НАЧАТЬ</a>
 
-        <!-- Услуги -->
-        <section class="services" id="services">
-            <div class="container">
-                <h2>Мои услуги</h2>
-                <div class="grid">
-                    <div class="service-card">
-                        <h4>Айдентика бренда</h4>
-                        <p>Логотип, визуальный стиль, брендбук.</p>
-                    </div>
-                    <div class="service-card">
-                        <h4>Упаковка и печать</h4>
-                        <p>Дизайн упаковки, подготовка к печати.</p>
-                    </div>
-                    <div class="service-card">
-                        <h4>Редактура и UI</h4>
-                        <p>Макеты журналов, веб-дизайн.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="icon"></div>
+    </section>
 
-        <!-- Обо мне -->
-        <section class="about" id="about">
-            <div class="container about-content">
-                <div>
-                    <h2>Обо мне</h2>
-                    <p>Я швейцарский дизайнер с 8+ годами опыта в брендинге, печати и цифровом дизайне. Работаю с клиентами по всей Европе.</p>
-                </div>
-                <div>
-                    <img src="images/about.jpg" alt="Портрет">
-                </div>
-            </div>
-        </section>
+    <!-- О нас -->
+    <section class="about">
+        <h3>О НАС</h3>
+        <p>Моя цель — дать тебе инструменты и вдохновение для реализации самых смелых идей</p>
+    </section>
 
-        <!-- Контакты -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <h2>Свяжитесь со мной</h2>
-                <form id="contact-form">
-                    <input type="text" name="name" placeholder="Ваше имя" required>
-                    <input type="email" name="email" placeholder="Ваш Email" required>
-                    <textarea name="message" placeholder="Сообщение" required></textarea>
-                    <button type="submit" class="btn">Отправить</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>© 2025 Studio-Iryna</p>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
-
