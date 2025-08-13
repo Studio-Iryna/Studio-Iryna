@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 .header {
-    background: #fff;
+    background: url("images/bg.jpg") no-repeat center center / cover;
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
@@ -125,3 +125,4 @@ body {
         display: block;
     }
 }
+
