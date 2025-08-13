@@ -1,130 +1,83 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    color: #C419BE;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(135deg, #0a0f2c, #05071a);
+    color: #66c0c9;
 }
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-.header {
-    background: #C419BE;
-    padding: 15px 0;
-    border-bottom: 1px solid #ddd;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-.nav-container {
+
+/* Навигация */
+.navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-}
-.btn {
-    background: #000;
-    color: #C419BE;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-.btn-outline {
-    border: 1px solid #000;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-}
-.hero {
-    display: flex;
-    align-items: center;
-    padding: 50px 0;
-}
-.hero-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-}
-.hero-text {
-    flex: 1;
-}
-.hero-img img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-}
-.grid {
-    display: grid;
-    gap: 20px;
-}
-.works .grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-.card img {
-    width: 100%;
-    border-radius: 8px;
-}
-.service-card {
-    background: #fff;
+    justify-content: center;
+    gap: 40px;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
 }
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
+
+.navbar a {
+    text-decoration: none;
+    color: #66c0c9;
+    font-size: 1rem;
 }
-.about-content img {
-    max-width: 300px;
-    border-radius: 8px;
-}
-.contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.contact input, .contact textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.footer {
-    background: #f8f8f8;
+
+/* Главный блок */
+.hero {
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-.menu-toggle {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-@media (max-width: 768px) {
-    .nav {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-        background: #fff;
-        padding: 20px;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        border: 1px solid #ddd;
-    }
-    .nav.active {
-        display: flex;
-    }
-    .menu-toggle {
-        display: block;
-    }
+    padding: 50px 20px;
 }
 
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
 
+.description {
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
 
+.slogan {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: none;
+    border: 2px solid #a020f0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #a020f0;
+    box-shadow: 0 0 15px #a020f0;
+}
+
+/* Иконка */
+.icon {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background: radial-gradient(circle, #1e90ff, #8a2be2);
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #1e90ff;
+}
+
+/* Блок О нас */
+.about {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 12px;
+    text-align: center;
+}
