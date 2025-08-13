@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    color: #0F1B2B, #1C1C1C;
+    color: #C419BE;
 }
 .container {
     width: 90%;
@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 .header {
-    background: #0F1B2B;
+    background: #C419BE;
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
@@ -29,7 +29,7 @@ body {
 }
 .btn {
     background: #000;
-    color: #0F1B2B;
+    color: #C419BE;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -125,5 +125,6 @@ body {
         display: block;
     }
 }
+
 
 
