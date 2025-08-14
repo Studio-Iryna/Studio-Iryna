@@ -11,13 +11,14 @@ body {
 }
 .header {
     background: url("../images/bg.jpg") no-repeat center center / cover;
-    padding: 15px 0;
+    padding: 30px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
     top: 0;
     z-index: 10;
 }
 .nav-container {
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,5 +126,6 @@ body {
         display: block;
     }
 }
+
 
 
