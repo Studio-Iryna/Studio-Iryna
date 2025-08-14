@@ -11,7 +11,7 @@ body {
 }
 .header {
     background: url("../images/bg.jpg") no-repeat center center / cover;
-    padding: 30px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
     top: 0;
@@ -126,6 +126,7 @@ body {
         display: block;
     }
 }
+
 
 
 
