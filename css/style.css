@@ -41,7 +41,7 @@ body {
 }
 .hero {
     position: relative;
-    height: 300px; /* высота баннера */
+    height: 400px; /* высота баннера */
     overflow: hidden;
 }
 .hero-bg {
@@ -133,6 +133,7 @@ body {
         display: block;
     }
 }
+
 
 
 
