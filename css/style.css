@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 .header {
-    background: url("../images/bg.jpg") no-repeat center center / cover;
+    background: transparent;
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
@@ -40,9 +40,10 @@ body {
     color: #000;
 }
 .hero {
+    background: url("../images/bg.jpg") no-repeat center center / cover;
+    padding: 50px 0;
     display: flex;
     align-items: center;
-    padding: 50px 0;
 }
 .hero-content {
     display: flex;
@@ -125,6 +126,7 @@ body {
         display: block;
     }
 }
+
 
 
 
