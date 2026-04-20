@@ -216,8 +216,7 @@ body {
     }
 }:root {
     --accent: #6f7354;
-}
-.lang-switch button {
+}.lang-switch button {
     background: none;
     border: none;
     margin-left: 10px;
