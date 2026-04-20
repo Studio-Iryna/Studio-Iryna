@@ -223,3 +223,66 @@ body {
     cursor: pointer;
     font-weight: 500;
 }
+/* === PREMIUM EFFECTS === */
+
+/* плавность всего */
+* {
+    transition: all 0.3s ease;
+}
+
+/* hover на меню */
+.nav a {
+    position: relative;
+}
+
+.nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 1px;
+    background: #2b2b2b;
+    transition: 0.3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+/* кнопка премиум */
+.btn {
+    background: #6f7354;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* карточки услуг */
+.service {
+    padding: 20px;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+/* появление при скролле */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* активный язык */
+.lang-switch button.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
